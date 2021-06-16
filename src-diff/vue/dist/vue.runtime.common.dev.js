@@ -881,6 +881,7 @@ methodsToPatch.forEach(function (method) {
     }
     if (inserted) { ob.observeArray(inserted); }
     // notify change
+    console.log(ob)
     ob.dep.notify();
     return result
   });

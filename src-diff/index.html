@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-05-14 15:58:59
- * @LastEditTime: 2021-05-26 10:44:23
+ * @LastEditTime: 2021-05-26 16:28:22
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \study-snabbdom\www\index.html
@@ -13,11 +13,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <script src="../src/vue/dist/vue.js"></script> -->
+    <script src="./vue/dist/vue.js"></script>
 
 </head>
 <body>
     <div id="app"></div>
-    <script src="/xuni/bundle.js"></script>
+    <!-- <script src="/xuni/bundle.js"></script> -->
+    <script>
+        var vm=new Vue({
+            data:{
+                aa:[]
+            }
+        })
+        console.log(vm.aa)
+    </script>
 </body>
 </html>
